@@ -2,10 +2,14 @@
 using namespace std;
 int main()
 {
-    float a,b,c;
-    cout << "Enter the numbers: ";
-    cin >> a >> b;
-    c = (a + b) / 2;
-    cout << "Average is "<< c;
+	float a, b, c;
+	cout << "Enter the numbers: ";
+	cin >> a >> b;
+
+	c = (a + b) / 2;
+
+	cout << "Average is " << c;
+
+	system("pause");
 	return 0;
 }
