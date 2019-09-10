@@ -10,10 +10,12 @@ int main()
 	cout << "Enter the nubmers: ";
 	cin >> a >> b;
 
-	c = pow(a,2) + pow(b,2);
-	d = pow(a, 2) - pow(b, 2);
-	e = pow(a, 2) * pow(b, 2);
-	f = pow(a, 2) / pow(b, 2);
+	a = pow(a,2);
+	b = pow(b,2);
+	c = a + b;
+	d = a - b;
+	e = a * b;
+	f = a / b;
 
 	cout << "Sum is " << c << endl;
 	cout << "Residual is " << d << endl;
